@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css">
+
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Bobby Lobby</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0 ">
+                <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select justify-content-between">
+                    <a class="navbar-brand ms-3" href="#">
+                        <img src="./assets/img/icon.svg" height="45" alt="" loading="lazy">
+                        <span class="ms-2">Bobby Lobby</span>
+                    </a>
+                    <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Cart <i class="mdi mdi-cart-outline mdi-24px"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bobby Hobby Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row" id="cart">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-around">
+                        <a class="navbar-brand" href="#Reclaimed Wood">Reclaimed Wood</a><span>|</span>
+                        <a class="navbar-brand" href="#Hand Tools">Hand Tools</a><span>|</span>
+                        <a class="navbar-brand" href="#Home Decor">Home Decor</a><span>|</span>
+                        <a class="navbar-brand" href="#Machine Tools">Machine Tools</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <img class="splash-img" src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1616046229478-9901c5536a45%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9tZSUyMGRlY29yfGVufDB8fDB8fA%253D%253D%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60"
+                        alt="splash image">
+                </div>
+                <div class="col-lg-4">
+                    <!-- gallery of onsale items -->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Freserve%2FoIpwxeeSPy1cnwYpqJ1w_Dufer%2520Collateral%2520test.jpg%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8N3x8dG9vbHN8ZW58MHx8MHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60"
+                                    class="d-block img-fluid" alt="...">
+                                <div class="bg-light carousel-caption d-none d-md-block">
+                                    <h5>FALL SPECIAL</h5>
+                                    <p>APPLY 'FALL21' COUPON CODE FOR 10% OFF!!!!!!!!!!!!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Freserve%2FoIpwxeeSPy1cnwYpqJ1w_Dufer%2520Collateral%2520test.jpg%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8N3x8dG9vbHN8ZW58MHx8MHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60"
+                                    class="d-block img-fluid" alt="...">
+                                <div class="bg-light carousel-caption d-none d-md-block">
+                                    <h5>FALL SPECIAL</h5>
+                                    <p>APPLY 'FALL21' COUPON CODE FOR 10% OFF!!!!!!!!!!!!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Freserve%2FoIpwxeeSPy1cnwYpqJ1w_Dufer%2520Collateral%2520test.jpg%3Fixid%3DMnwxMjA3fDB8MHxzZWFyY2h8N3x8dG9vbHN8ZW58MHx8MHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D600%26q%3D60"
+                                    class="d-block img-fluid" alt="...">
+                                <div class="bg-light carousel-caption d-none d-md-block">
+                                    <h5>FALL SPECIAL</h5>
+                                    <p>APPLY 'FALL21' COUPON CODE FOR 10% OFF!!!!!!!!!!!!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="dept-section">
+            <!-- department shops inventory goes here -->
+
+        </div>
+    </main>
+    <footer class="bg-dark text-light">
+        <div class="text-center no-select">
+            <p><small>Made with 💖 by Codeworks</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app/main.js" type="module"></script>
+</body>
+
+</html>
