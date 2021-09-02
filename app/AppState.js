@@ -15,13 +15,13 @@ class AppState extends EventEmitter {
         new Item({ img: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTL9O94RyVdTjVxQ0NTX8wyqJYedSuosNPb5QSszQRtHy3qBkiRbUBx4K-6Y8g%26usqp%3DCAc', name: 'Hickory', cost: 20, dept: 'Reclaimed Wood' }),
         new Item({ img: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTWF3NMTzEmhnwuvSazP1EwhskRZ9Tb7GVMsQpt2rME7ix-z-s84xAw8kuTwg%26usqp%3DCAc', name: 'Plastic Wood', cost: 450, dept: 'Reclaimed Wood' }),
         new Item({ img: 'https://lda.lowes.com/is/image/Lowes/yellow-black-dewalt-20-volt-dp18-299078-acc1?scl=1', name: 'Drill', cost: 59.99, dept: 'Hand Tools' }),
-        new Item({ img: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQixELD9rWXFbiWW8lNLGhmBhcbaS0-KcbaYOBZ445TuPGHenR2XX-XCeIzD-Cv8B7Q11jWTq9P%26usqp%3DCAc', name: 'Contractor Saw', cost: 893.24, dept: 'Machine Tools' }),
+        new Item({ img: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQixELD9rWXFbiWW8lNLGhmBhcbaS0-KcbaYOBZ445TuPGHenR2XX-XCeIzD-Cv8B7Q11jWTq9P%26usqp%3DCAc', name: 'Contractor Saw', cost: 893.24, dept: 'Power Tools' }),
         new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaagdEasr7NchIRCLFolgGywkEXi3RS5wQf3kbW4GFVxJAfRSme5R4iVXp18t965J0N8DIYG0&usqp=CAc', name: 'Tool Box', cost: 127, dept: 'Hand Tools' }),
         new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERbDfplrQTbNSG75Yrlmi1qqqsFTxfGM5m8JFeOxJBmDibfhVpYJBRAHs4HosLkQ4Z2EMWlM&usqp=CAc', name: 'Socket Set', cost: 59, dept: 'Hand Tools' }),
         new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdaOTcgRbkYE22sSc46kwZPpH-fllQZMOyng&usqp=CAU', name: 'Drill Bits', cost: 79, dept: 'Hand Tools' }),
-        new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyY2YCHPQg6bugu0SsHfIMUR1LJIDFXzVLrahUA7XBqAUBBIpyyr4KKwr1A&usqp=CAc', name: 'Sawzall', cost: 358, dept: 'Machine Tools' }),
-        new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SZ1Mf-W9vSQSa8nww-Vvq48DY_-6Yqpt7Lg-O4E0wG-VBm6slQrCVowia3wXCZ5pnQ18KTA&usqp=CAc', name: 'Chop Saw', cost: 450, dept: 'Machine Tools' }),
-        new Item({ img: 'https://www.dewalt.com/NA/product/images/3000x3000x96/DWE7491X/DWE7491X_1.jpg', name: 'Table Saw', cost: 540, dept: 'Machine Tools' }),
+        new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoyY2YCHPQg6bugu0SsHfIMUR1LJIDFXzVLrahUA7XBqAUBBIpyyr4KKwr1A&usqp=CAc', name: 'Sawzall', cost: 358, dept: 'Power Tools' }),
+        new Item({ img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SZ1Mf-W9vSQSa8nww-Vvq48DY_-6Yqpt7Lg-O4E0wG-VBm6slQrCVowia3wXCZ5pnQ18KTA&usqp=CAc', name: 'Chop Saw', cost: 450, dept: 'Power Tools' }),
+        new Item({ img: 'https://www.dewalt.com/NA/product/images/3000x3000x96/DWE7491X/DWE7491X_1.jpg', name: 'Table Saw', cost: 540, dept: 'Power Tools' }),
 
     ]
 
@@ -32,7 +32,7 @@ class AppState extends EventEmitter {
         new Dept({ name: 'Reclaimed Wood' }),
         new Dept({ name: 'Hand Tools' }),
         new Dept({ name: 'Home Decor' }),
-        new Dept({ name: 'Machine Tools' })
+        new Dept({ name: 'Power Tools' })
 
     ]
 
