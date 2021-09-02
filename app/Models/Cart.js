@@ -7,11 +7,7 @@ export class Cart {
 
     }
 
-    get cartTemplate() {
-        return /*html*/ `
-        
-    `
-    }
+
 
     get Items() {
         let template = ''
